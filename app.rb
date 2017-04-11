@@ -1,4 +1,8 @@
 require 'sinatra'
-    get '/portada' do
+    get '/' do
       erb :index
+    end
+
+    get '/inversionistas' do
+      erb :invertir
     end
